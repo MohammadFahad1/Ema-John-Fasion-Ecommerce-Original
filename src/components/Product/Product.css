@@ -1,0 +1,28 @@
+.product {
+    border: 1px solid lightslategray;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 300px;
+    padding: 8px;
+    position: relative;
+}
+
+.product p {
+    margin: 0;
+}
+
+.product img {
+    width: 100%;
+}
+
+.addToCart {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}

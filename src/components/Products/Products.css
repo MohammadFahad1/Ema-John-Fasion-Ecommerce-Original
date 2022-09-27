@@ -1,0 +1,33 @@
+.products-container {
+    flex: 3;
+    position: relative;
+}
+
+.cart {
+    flex: 1;
+    border: 2px solid green;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    margin-top: 55px;
+    background-color: aquamarine;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.x-center {
+    display: flex;
+    justify-content: center;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    gap: 14px;
+}
